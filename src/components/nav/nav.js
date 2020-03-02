@@ -14,6 +14,11 @@ const Nav = props => {
           History
         </Link>
       </li>
+      <li>
+        <Link exact to="/results">
+          Results
+        </Link>
+      </li>
     </ul>
   );
 };
