@@ -8,7 +8,7 @@ import Footer from "./components/footer/footer.js"
 import Nav from "./components/nav/nav.js";
 import Main from "./main";
 import History from "./components/history/history.js";
-
+import Results from "./components/results/results.js"
 
 
 import "./app.scss";
@@ -57,10 +57,11 @@ class App extends React.Component {
           setUrl={this.setUrl}
           results={this.state.results}
         />
-
        <Route exact path="/history">
-
        <History />          
+        </Route><br />
+        <Route exact path="/results">
+       <Results />          
         </Route><br />
        <Footer />
       </>
